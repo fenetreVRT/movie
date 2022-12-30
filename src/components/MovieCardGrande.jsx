@@ -10,7 +10,6 @@ function MovieCardGrande({ result }) {
           alt={result.title}
         />
         <h3>{result.title}</h3>
-        MovieCardGrande
       </Link>
     </div>
   );

@@ -8,7 +8,6 @@ function Home() {
   const popular = useFetch(popularUrl);
   const toprate = useFetch(toprateUrl);
   return (
-    //Gör en till, copy 11 till 16 för top-rate url + rad 7
     <div>
       <MoviesCarusell
         data={popular.data?.results}
